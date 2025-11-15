@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Change Background</title>
+</head>
+<body>
+
+    <button onclick="changeColor()">Change colour</button>
+     <script>
+     let isFirst = true;
+     function changeColor() {
+     document.body.style.backgroundColor = isFirst ? "black" : "white";
+     isFirst = !isFirst;
+        }
+     </script>
+
+</body>
+</html>
+
